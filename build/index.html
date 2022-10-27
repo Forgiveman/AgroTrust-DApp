@@ -8,15 +8,15 @@
   <script src="./app.js"></script>
 </head>
 <body>
-  <h1>Agricultural Supply Chain Dapp</h1>
+  <h1>AgroTrust</h1>
   <h4>Public Id : <span class="white"><span id="SenderBalance"></span> </h4>
   
     <div class="btn-group" id="form-selector" align="center">
 		
 		<button type="button" class="btn1 btn-selector active" id="sign-up-btn">Farmer</button>
-		<button type="button" class="btn1 btn-selector" id="log-in-btn">Quality Testing</button>
-		<button type="button" class="btn1 btn-selector" id="payments-btn">Customer</button>
-		<button type="button" class="btn1 btn-selector" id="finance-btn">Micro-Finance</button>
+		<button type="button" class="btn1 btn-selector" id="log-in-btn">Processor</button>
+		<button type="button" class="btn1 btn-selector" id="payments-btn">Consumer</button>
+		
 		
 	</div>
 	<div class="form" id="sign-up-form">
@@ -108,21 +108,7 @@
   <button type="button" class="btn-submit" id="getcustval" onclick="getQ();cgetQ();">Get Value</button>
   </div>
 
-  <div class="form" id="finance-form">
-		<h2 class="form-title">Micro-Finance</h2>
-		
-
-		<input type="text" class="input-std" id="pfid" placeholder="Farmer Public Id">
-		<input type="text" class="input-std" id="lotnum" placeholder="Lot Number">
-		<input type="text" class="input-std" id="amount" placeholder="Fund Amount">
-		<table>
-		<tr><td><b><label class = "black">Balance</label></td><td>:</td></b><td><span class="black"><span class="black" span id="balance"></span>R</span></td></tr>
-		
-		</table>
-		<button type="button" class="btn-submit" id="getfund" onclick="fund()">Fund Farmer</button>
-		
-	<span id="status"></span>
-	</div>
+  
 
 
   
